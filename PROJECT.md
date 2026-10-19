@@ -114,10 +114,10 @@ oncovit-sankhya-med-sync/
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | Core System (Spring Boot API, Relational DB, ZPL & Sankhya) | Features 1 to 14 (R1, R2, R3) | none | IN_PROGRESS |
-| M2 | Candidate Dossier & Approach Guide | Features 15, 16, 17 (R4) | none | PLANNED |
-| M3 | VPS 2 tmux Deployment & Verification | Features 18, 19, 20 (R5) | M1 | PLANNED |
-| Final | 100% E2E Pass & Adversarial Hardening | Feature 21 (Acceptance criteria) | M1, M2, M3 | PLANNED |
+| M1 | Core System (Spring Boot API, Relational DB, ZPL & Sankhya) | Features 1 to 14 (R1, R2, R3) | none | DONE |
+| M2 | Candidate Dossier & Approach Guide | Features 15, 16, 17 (R4) | none | DONE |
+| M3 | VPS 2 tmux Deployment & Verification | Features 18, 19, 20 (R5) | M1 | DONE |
+| Final | 100% E2E Pass & Adversarial Hardening | Feature 21 (Acceptance criteria) | M1, M2, M3 | DONE |
 
 ---
 
