@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  oncovit-api:
+    container_name: oncovit-sankhya-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: oncovit-sankhya-api:1.0.0
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=America/Sao_Paulo
+      - JAVA_OPTS=-Xms128m -Xmx384m
+    networks:
+      - portainer_default
+      - default
+
+networks:
+  portainer_default:
+    external: true
