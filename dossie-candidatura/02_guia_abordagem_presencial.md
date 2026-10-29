@@ -100,7 +100,7 @@ Leve uma pasta executiva rígida contendo:
 
 > **Candidato:**  
 > *"Bom dia [ou Boa tarde]! Tudo bem?  
-> Meu nome é Lucas Ferreira Santos. Eu me candidatei formalmente à vaga de Estagiário de Desenvolvimento no portal Gupy da Oncovit.  
+> Meu nome é Celso Ladislau Junior. Eu me candidatei formalmente à vaga de Estagiário de Desenvolvimento no portal Gupy da Oncovit.  
 > Sei que o processo seletivo prevê a etapa de testes presenciais e, como estudo aqui perto na Universidade Vila Velha e tenho disponibilidade imediata, fiz questão de vir pessoalmente entregar um dossiê técnico que preparei especialmente para a empresa.  
 > Além do currículo com meus dados, desenvolvi um microsserviço prático em Java Spring Boot simulando a rastreabilidade de medicamentos termolábeis e a integração com o ERP Sankhya, que já está rodando online.  
 > Por gentileza, a senhora [ou o senhor] poderia encaminhar este envelope ao Coordenador de TI/Desenvolvimento ou à equipe de Recursos Humanos?"*
@@ -128,8 +128,8 @@ Se você for recebido pelo Gestor de TI, Tech Lead ou Analista Técnico, execute
 
 ```
 [00s - 15s] BLOCO 1: Apresentação e Formação (UVV)
-"Olá, [Nome do Gestor], muito prazer! Meu nome é Lucas Ferreira Santos, curso Ciência da 
-Computação na Universidade Vila Velha (UVV) no 4º período e meu foco técnico é o ecossistema 
+"Olá, [Nome do Gestor], muito prazer! Meu nome é Celso Ladislau Junior, curso Ciência da 
+Computação / Sistemas na Universidade Vila Velha (UVV) e meu foco técnico é o ecossistema 
 backend em Java com banco de dados SQL."
 
 [15s - 30s] BLOCO 2: Conexão e Contexto de Negócio Oncovit
@@ -194,7 +194,7 @@ Localize no LinkedIn os profissionais da Oncovit (pesquisando por *"Oncovit Dist
 ### 5.2 Ação 2: E-mail de Follow-up Profissional (Enviar no final da tarde do mesmo dia)
 Se você conseguiu o contato ou o e-mail do setor de RH/TI (ex.: `rh@oncovit.com.br`, `recrutamento@oncovit.com.br` ou e-mail corporativo fornecido na recepção):
 
-**Assunto:** Candidatura e Apresentação Técnica — Estágio em Desenvolvimento (Gupy 74584-12725706) — Lucas Ferreira Santos
+**Assunto:** Candidatura e Apresentação Técnica — Estágio em Desenvolvimento (Gupy 74584-12725706) — Celso Ladislau Junior
 
 **Corpo do E-mail:**
 ```text
@@ -202,30 +202,31 @@ Prezada Equipe de Recursos Humanos e Gestão de TI da Oncovit,
 
 Espero que este e-mail os encontre bem.
 
-Meu nome é Lucas Ferreira Santos, estudante do 4º período de Ciência da Computação / Sistemas de Informação na Universidade Vila Velha (UVV), e formalizo meu grande interesse na oportunidade de Estágio no Departamento de Desenvolvimento (Edital Gupy nº 74584-12725706).
+Meu nome é Celso Ladislau Junior, estudante de Ciência da Computação / Sistemas de Informação na Universidade Vila Velha (UVV), e formalizo meu grande interesse na oportunidade de Estágio no Departamento de Desenvolvimento (Edital Gupy nº 74584-12725706).
 
 Estive pessoalmente hoje na matriz da Oncovit, no Bairro Jabour, e deixei na recepção um envelope contendo meu currículo impresso e o resumo do projeto prático que desenvolvi: o "Oncovit Sankhya Med Sync".
 
-A aplicação é um microsserviço construído em Java 17 com Spring Boot 3 e PostgreSQL, modelando os requisitos centrais da distribuição hospitalar:
+A aplicação é um microsserviço construído em Java 17 com Spring Boot 3 e PostgreSQL/H2, modelando os requisitos centrais da distribuição hospitalar:
 1. Rastreabilidade e segregação de medicamentos termolábeis em cadeia de frio (2°C a 8°C conforme RDC 430 ANVISA);
 2. Motor de auditoria FEFO para sinalização de lotes com validade crítica (< 60 dias);
 3. Endpoint de baixa de estoque compatível com a arquitetura do ERP Sankhya, com travas atômicas contra saldo negativo e lotes vencidos;
 4. Geração de etiquetas térmicas industriais em linguagem ZPL II (Zebra).
 
-Para facilitar a avaliação da equipe técnica, a aplicação já está homologada e rodando em servidor VPS próprio através do multiplexador tmux, com Swagger interativo disponível publicamente:
-- Documentação Swagger UI: http://vps2.seuserver.com:8080/swagger-ui/index.html
-- Repositório no GitHub: https://github.com/lucas-santos-dev/oncovit-sankhya-med-sync
+Para facilitar a avaliação da equipe técnica, a aplicação já está homologada e rodando em servidor na nuvem via Docker / Portainer, com Swagger interativo disponível publicamente:
+- Documentação Swagger UI: http://46.62.144.28:8080/swagger-ui/index.html
+- Repositório no GitHub: https://github.com/celsojuniorladislau/oncovit-sankhya-med-sync
 
 Tenho total disponibilidade para a jornada presencial e seria uma honra participar da Etapa 1 de testes presenciais e entrevista na sede da empresa.
 
-Agradeço imensamente pela atenção e coloco-me à disposição pelo telefone/WhatsApp (27) 99876-5432.
+Agradeço imensamente pela atenção e coloco-me à disposição pelo telefone/WhatsApp (27) 99266-5692.
 
 Atenciosamente,
 
-Lucas Ferreira Santos
+Celso Ladislau Junior
 Graduando em Ciência da Computação / Sistemas de Informação — UVV
-LinkedIn: linkedin.com/in/lucas-santos-dev
-WhatsApp: (27) 99876-5432 | Vila Velha - ES
+LinkedIn: https://www.linkedin.com/in/celsojuniorladislau
+GitHub: https://github.com/celsojuniorladislau
+WhatsApp: (27) 99266-5692 | Vila Velha - ES
 ```
 
 ---

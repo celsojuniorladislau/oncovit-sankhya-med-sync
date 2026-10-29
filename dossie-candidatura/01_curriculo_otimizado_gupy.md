@@ -14,14 +14,14 @@ GUIA DE USO:
 
 ```
 ========================================================================================
-                                 LUCAS FERREIRA SANTOS
+                                 CELSO LADISLAU JUNIOR
     Estudante de Ciência da Computação / Sistemas de Informação — Universidade Vila Velha (UVV)
            Desenvolvedor Java Backend | Spring Boot | SQL | Integrações ERP Sankhya
 ========================================================================================
 Vila Velha - ES (Disponibilidade total para atuação presencial em Jabour, Vitória - ES)
-Telefone / WhatsApp: (27) 99876-5432 | E-mail: lucas.santos.dev@email.com
-LinkedIn: linkedin.com/in/lucas-santos-dev | GitHub: github.com/lucas-santos-dev
-Portfólio / Swagger Online: http://vps2.seuserver.com:8080/swagger-ui/index.html
+Telefone / WhatsApp: (27) 99266-5692 | E-mail: celsojr.ladislau@gmail.com
+LinkedIn: linkedin.com/in/celsojuniorladislau | GitHub: github.com/celsojuniorladislau
+Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
 ========================================================================================
 ```
 
@@ -77,7 +77,7 @@ Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, micr
 
 #### 1. Oncovit Sankhya Med Sync — Microsserviço de Rastreabilidade e Integração ERP
 *Tecnologias: Java 17, Spring Boot 3.3, Spring Data JPA, PostgreSQL, H2, Swagger/OpenAPI, ZPL II, Linux, VPS tmux.*  
-*Demonstração Online:* `http://vps2.seuserver.com:8080/swagger-ui/index.html` | *Código Fonte:* `github.com/lucas-santos-dev/oncovit-sankhya-med-sync`
+*Demonstração Online:* `http://46.62.144.28:8080/swagger-ui/index.html` | *Código Fonte:* `github.com/celsojuniorladislau/oncovit-sankhya-med-sync`
 
 - **Contexto & Solução:** Projetou e implementou um microsserviço de alta performance voltado para os desafios logísticos da distribuição de medicamentos oncológicos e hospitalares, espelhando os processos da matriz da Oncovit em Vitória-ES.
 - **Destaques Técnicos:**
@@ -119,14 +119,14 @@ Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, micr
 # VERSÃO EM TEXTO PURO PARA ATS (COPIAR E COLAR NA GUPY)
 
 ```text
-LUCAS FERREIRA SANTOS
+CELSO LADISLAU JUNIOR
 Estudante de Ciência da Computação / Sistemas de Informação - Universidade Vila Velha (UVV)
 Vila Velha - ES | Disponibilidade presencial para Jabour, Vitória - ES
-Telefone / WhatsApp: (27) 99876-5432
-E-mail: lucas.santos.dev@email.com
-LinkedIn: https://www.linkedin.com/in/lucas-santos-dev
-GitHub: https://github.com/lucas-santos-dev
-Portfólio / Swagger Online: http://vps2.seuserver.com:8080/swagger-ui/index.html
+Telefone / WhatsApp: (27) 99266-5692
+E-mail: celsojr.ladislau@gmail.com
+LinkedIn: https://www.linkedin.com/in/celsojuniorladislau
+GitHub: https://github.com/celsojuniorladislau
+Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
 
 OBJETIVO PROFISSIONAL
 Estágio no Departamento de Desenvolvimento / TI - Oncovit Distribuidora de Medicamentos
@@ -158,7 +158,7 @@ Projeto: Oncovit Sankhya Med Sync - Microsserviço de Rastreabilidade Farmacêut
 - Desenvolveu endpoint de baixa de estoque simulando a integração com o ERP Sankhya (POST /api/integracao/sankhya/baixa-estoque), validando saldo disponível, bloqueio de lotes vencidos e persistindo log de auditoria completo.
 - Implementou exportação de etiquetas térmicas industriais em linguagem ZPL II (Zebra) com alertas térmicos, código de barras Code 128 e DataMatrix.
 - Realizou o deploy da aplicação em VPS Linux persistida via tmux, com documentação interativa Swagger UI acessível via navegador.
-- Repositório no GitHub: github.com/lucas-santos-dev/oncovit-sankhya-med-sync
+- Repositório no GitHub: github.com/celsojuniorladislau/oncovit-sankhya-med-sync
 
 Projeto: Sistema de Controle de Quarentena e Laudos Farmacêuticos
 - Implementação de máquina de estados para liberação sanitária de lotes de medicamentos, aplicando regras de negócio em Java e persistência com Spring Data JPA.
