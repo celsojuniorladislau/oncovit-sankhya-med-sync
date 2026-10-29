@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo - Celso Ladislau Junior - Estágio de Desenvolvimento Oncovit</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 15mm 12mm 15mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.35;
+      font-size: 9.5pt;
+      background: #f8f9fa;
+    }
+    .page {
+      background: #fff;
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 12mm 15mm;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    @media print {
+      body { background: #fff; }
+      .page {
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      .no-print { display: none; }
+    }
+    
+    /* Header */
+    .header {
+      border-bottom: 2px solid #0f4c81;
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-text h1 {
+      font-size: 18pt;
+      color: #0f4c81;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 2px;
+    }
+    .header-text .subtitle {
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #2c3e50;
+      margin-bottom: 4px;
+    }
+    .header-text .contact-info {
+      font-size: 8.5pt;
+      color: #555;
+    }
+    .header-text .contact-info span {
+      margin-right: 12px;
+    }
+    .header-text .contact-info a {
+      color: #0f4c81;
+      text-decoration: none;
+    }
+    .qr-container {
+      text-align: center;
+      border-left: 1px solid #e1e8ed;
+      padding-left: 12px;
+    }
+    .qr-container img {
+      width: 70px;
+      height: 70px;
+      display: block;
+      margin: 0 auto 2px;
+    }
+    .qr-container span {
+      font-size: 6.5pt;
+      color: #666;
+      font-weight: 600;
+      text-transform: uppercase;
+      display: block;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 9px;
+    }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #0f4c81;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #d9e2ec;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+
+    /* Summary */
+    .summary-text {
+      text-align: justify;
+      color: #2d3748;
+    }
+
+    /* Grid for Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 14px;
+      font-size: 8.8pt;
+    }
+    .skill-item strong {
+      color: #102a43;
+    }
+
+    /* Projects */
+    .project-card {
+      margin-bottom: 7px;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .project-title {
+      font-weight: 700;
+      color: #102a43;
+      font-size: 9.8pt;
+    }
+    .project-tech {
+      font-size: 8pt;
+      color: #627d98;
+      font-weight: 600;
+    }
+    .project-desc {
+      color: #334e68;
+      margin-bottom: 3px;
+      text-align: justify;
+    }
+    .project-highlights {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .project-highlights li {
+      position: relative;
+      padding-left: 12px;
+      margin-bottom: 1.5px;
+      color: #334e68;
+      font-size: 8.8pt;
+    }
+    .project-highlights li::before {
+      content: "▪";
+      position: absolute;
+      left: 0;
+      color: #0f4c81;
+      font-size: 9pt;
+      top: -1px;
+    }
+
+    /* Education & Details */
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .edu-title {
+      font-weight: 700;
+      color: #102a43;
+    }
+    .edu-period {
+      font-size: 8.5pt;
+      color: #627d98;
+    }
+
+    /* Print Button Bar */
+    .action-bar {
+      max-width: 210mm;
+      margin: 15px auto 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f4c81;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 6px;
+    }
+    .action-btn {
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      font-size: 10pt;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .action-btn:hover {
+      background: #219150;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de Ação (não aparece na impressão) -->
+  <div class="action-bar no-print">
+    <div>
+      <strong>Currículo Técnico Pronto para Entrega em Mãos</strong> — Oncovit Distribuidora
+    </div>
+    <button class="action-btn" onclick="window.print()">🖨️ Imprimir / Salvar como PDF (Ctrl+P)</button>
+  </div>
+
+  <div class="page">
+    
+    <!-- Cabeçalho -->
+    <div class="header">
+      <div class="header-text">
+        <h1>CELSO LADISLAU JUNIOR</h1>
+        <div class="subtitle">Desenvolvedor Java Backend &bull; Spring Boot &bull; SQL &bull; Integração ERP Sankhya</div>
+        <div class="contact-info">
+          <span>📍 Vila Velha - ES (Disponibilidade total presencial em Vitória/Jabour)</span>
+          <span>📞 (27) 99266-5692</span><br>
+          <span>✉️ <a href="mailto:celsojr.ladislau@gmail.com">celsojr.ladislau@gmail.com</a></span>
+          <span>💻 <a href="https://github.com/celsojuniorladislau">github.com/celsojuniorladislau</a></span>
+          <span>🔗 <a href="https://www.linkedin.com/in/celsojuniorladislau">linkedin.com/in/celsojuniorladislau</a></span>
+        </div>
+      </div>
+      <div class="qr-container">
+        <!-- QR Code para o Swagger ao vivo na VPS1 -->
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&margin=0&data=http://46.62.144.28:8080/swagger-ui/index.html" alt="QR Code Swagger">
+        <span>Acesse o Projeto<br>Online (Swagger)</span>
+      </div>
+    </div>
+
+    <!-- Objetivo -->
+    <div class="section">
+      <div class="section-title">Objetivo Profissional</div>
+      <p><strong>Estágio no Departamento de Desenvolvimento / TI — Oncovit Distribuidora de Medicamentos</strong></p>
+    </div>
+
+    <!-- Resumo de Qualificações -->
+    <div class="section">
+      <div class="section-title">Resumo das Qualificações</div>
+      <p class="summary-text">
+        Graduando em Ciência da Computação / Sistemas de Informação pela <strong>Universidade Vila Velha (UVV)</strong>, com sólido domínio em <strong>Java (POO)</strong>, construção de <strong>APIs RESTful com Spring Boot</strong> e manipulação de banco de dados relacional <strong>SQL</strong>. Desenvolveu de forma autônoma o projeto <strong>Oncovit Sankhya Med Sync</strong>, simulando a rotina logística e sanitária de medicamentos oncológicos (cadeia de frio 2°C a 8°C, auditoria FEFO para validade crítica &lt; 60 dias, baixa atômica de estoque integrada ao ERP Sankhya e geração de etiquetas industriais em ZPL II), atualmente em produção na nuvem. Criador de aplicação desktop para impressão de etiquetas térmicas. Excelente raciocínio lógico, perfil proativo e facilidade para atendimento e suporte técnico a usuários internos.
+      </p>
+    </div>
+
+    <!-- Formação Acadêmica -->
+    <div class="section">
+      <div class="section-title">Formação Acadêmica</div>
+      <div class="edu-item">
+        <span class="edu-title">Bacharelado em Ciência da Computação / Sistemas de Informação</span>
+        <span class="edu-period">Previsão de Conclusão: Dez/2027</span>
+      </div>
+      <div class="edu-item">
+        <span style="color: #486581;">Universidade Vila Velha (UVV) — Campus Boa Vista, Vila Velha - ES</span>
+        <span class="edu-period">Cursando a partir do 3º período</span>
+      </div>
+    </div>
+
+    <!-- Competências Técnicas -->
+    <div class="section">
+      <div class="section-title">Competências Técnicas & Ferramentas</div>
+      <div class="skills-grid">
+        <div class="skill-item"><strong>Linguagens:</strong> Java (JDK 17/21), Orientação a Objetos (POO), Streams, Collections, TypeScript/JavaScript, Python.</div>
+        <div class="skill-item"><strong>Backend & Frameworks:</strong> Spring Boot 3, Spring Data JPA, Hibernate, REST APIs, JSON/XML, OpenAPI/Swagger.</div>
+        <div class="skill-item"><strong>Banco de Dados & SQL:</strong> PostgreSQL, H2, Modelagem Relacional, DDL/DML, Joins complexos, Agregações, Índices.</div>
+        <div class="skill-item"><strong>ERP & Regras de Negócio:</strong> ERP Sankhya (dicionário de dados TGFCAB/TGFITE/TGFLOT), Regras FEFO, RDC 430 ANVISA.</div>
+        <div class="skill-item"><strong>DevOps & Infraestrutura:</strong> Docker, Docker Compose, Portainer, Linux/Ubuntu, Git, GitHub, VPS Cloud, Nginx/Traefik.</div>
+        <div class="skill-item"><strong>Hardware & Automação:</strong> Impressão Térmica Zebra ZPL II, Leitores de Código de Barras (Code 128 / DataMatrix GS1).</div>
+      </div>
+    </div>
+
+    <!-- Projetos Práticos -->
+    <div class="section">
+      <div class="section-title">Projetos Técnicos em Destaque</div>
+      
+      <!-- Projeto 1: Oncovit Med Sync -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-title">1. Oncovit Sankhya Med Sync — Microsserviço de Rastreabilidade & Integração ERP</span>
+          <span class="project-tech">Java 17 &bull; Spring Boot 3 &bull; SQL &bull; Docker &bull; ZPL II &bull; Swagger</span>
+        </div>
+        <div class="project-desc">
+          Aplicação desenvolvida para resolver os desafios críticos da distribuição farmacêutica hospitalar:
+        </div>
+        <ul class="project-highlights">
+          <li><strong>Cadeia de Frio Sanitária:</strong> Segregação automatizada de medicamentos termolábeis (2°C a 8°C) e ambiente com regras RDC 430 ANVISA.</li>
+          <li><strong>Prevenção de Perdas (FEFO):</strong> Algoritmo em Java/SQL que identifica lotes com validade crítica (&lt; 60 dias) e calcula valor financeiro em risco.</li>
+          <li><strong>Conector ERP Sankhya:</strong> Endpoint transacional (<code>REQUIRES_NEW</code>) e concorrência otimista (<code>@Version</code>) para baixa de estoque e auditoria.</li>
+          <li><strong>Geração ZPL II:</strong> Formatação instantânea de etiquetas térmicas com tarja de câmara fria e DataMatrix para expedição.</li>
+          <li><strong>Ambiente Vivo:</strong> Deploy ativo em container Docker na nuvem com Swagger UI: <code>http://46.62.144.28:8080/swagger-ui/index.html</code></li>
+        </ul>
+      </div>
+
+      <!-- Projeto 2: Impressão de Etiquetas -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-title">2. Sistema Desktop para Impressão de Etiquetas Térmicas</span>
+          <span class="project-tech">Tauri &bull; React &bull; Next.js &bull; TypeScript &bull; Hardware Integration</span>
+        </div>
+        <div class="project-desc">
+          Software multiplataforma de alta performance para operação de expedição e logística, realizando comunicação com impressoras térmicas para impressão de etiquetas de identificação de caixas e frascos fracionados.
+        </div>
+      </div>
+
+      <!-- Projeto 3: APIs e Web Services -->
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-title">3. Desenvolvimento de APIs REST & Automações Corporativas</span>
+          <span class="project-tech">Fastify &bull; Node.js &bull; FastAPI / Python &bull; Git &bull; PostgreSQL</span>
+        </div>
+        <div class="project-desc">
+          Múltiplos projetos com tratamento padronizado de payloads JSON, autenticação por token, controle de rotas HTTP e integração entre sistemas. Mais de 45 repositórios versionados e organizados no GitHub.
+        </div>
+      </div>
+    </div>
+
+    <!-- Atendimento e Soft Skills -->
+    <div class="section">
+      <div class="section-title">Habilidades Comportamentais & Suporte ao Usuário</div>
+      <p style="font-size: 8.8pt; color: #334e68; text-align: justify;">
+        Excelente comunicação oral e escrita, empatia no atendimento a chamados de suporte interno (Service Desk N1/N2), facilidade de relacionamento com equipes operacionais (logística, compras e faturamento), perfil autodidata e rapidez para absorver novas documentações e processos de negócio.
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
