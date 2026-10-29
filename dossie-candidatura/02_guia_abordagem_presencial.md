@@ -166,7 +166,7 @@ Caso o gestor decida fazer 2 ou 3 perguntas rápidas ali mesmo no balcão ou sal
 
 ### P3: "Como conciliar o estágio presencial com os estudos na UVV?"
 > **Resposta Estratégica:**  
-> *"Minhas aulas na UVV acontecem no período noturno [ou matutino/conforme grade], o que me deixa com total disponibilidade para cumprir as 6 horas diárias de estágio no turno acordado. Além disso, o trajeto de Vila Velha até aqui em Jabour é direto pelas linhas troncais do Transcol ou via Terceira Ponte/Reta da Penha, levando menos de 40 minutos."*
+> *"Minhas aulas na UVV acontecem no período noturno [ou matutino/conforme grade], o que me deixa com total disponibilidade para cumprir as 6 horas diárias de estágio no turno acordado. Além disso, resido na Serra e o trajeto até aqui em Jabour é extremamente rápido e direto pela Fernando Ferrari / Terminal Carapina, levando menos de 15 a 20 minutos."*
 
 ### P4: "O estagiário aqui também atende suporte aos usuários internos. Você tem paciência para isso?"
 > **Resposta Estratégica:**  
@@ -226,7 +226,7 @@ Celso Ladislau Junior
 Graduando em Ciência da Computação / Sistemas de Informação — UVV
 LinkedIn: https://www.linkedin.com/in/celsojuniorladislau
 GitHub: https://github.com/celsojuniorladislau
-WhatsApp: (27) 99266-5692 | Vila Velha - ES
+WhatsApp: (27) 99266-5692 | Serra - ES
 ```
 
 ---

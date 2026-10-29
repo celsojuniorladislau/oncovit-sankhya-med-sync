@@ -18,7 +18,7 @@ GUIA DE USO:
     Estudante de Ciência da Computação / Sistemas de Informação — Universidade Vila Velha (UVV)
            Desenvolvedor Java Backend | Spring Boot | SQL | Integrações ERP Sankhya
 ========================================================================================
-Vila Velha - ES (Disponibilidade total para atuação presencial em Jabour, Vitória - ES)
+Serra - ES (Disponibilidade total para atuação presencial em Jabour, Vitória - ES)
 Telefone / WhatsApp: (27) 99266-5692 | E-mail: celsojuniorladislau@gmail.com
 LinkedIn: linkedin.com/in/celsojuniorladislau | GitHub: github.com/celsojuniorladislau
 Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
@@ -121,7 +121,7 @@ Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, micr
 ```text
 CELSO LADISLAU JUNIOR
 Estudante de Ciência da Computação / Sistemas de Informação - Universidade Vila Velha (UVV)
-Vila Velha - ES | Disponibilidade presencial para Jabour, Vitória - ES
+Serra - ES | Disponibilidade presencial para Jabour, Vitória - ES
 Telefone / WhatsApp: (27) 99266-5692
 E-mail: celsojuniorladislau@gmail.com
 LinkedIn: https://www.linkedin.com/in/celsojuniorladislau
