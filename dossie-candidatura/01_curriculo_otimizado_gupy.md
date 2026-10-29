@@ -19,7 +19,7 @@ GUIA DE USO:
            Desenvolvedor Java Backend | Spring Boot | SQL | Integrações ERP Sankhya
 ========================================================================================
 Vila Velha - ES (Disponibilidade total para atuação presencial em Jabour, Vitória - ES)
-Telefone / WhatsApp: (27) 99266-5692 | E-mail: celsojr.ladislau@gmail.com
+Telefone / WhatsApp: (27) 99266-5692 | E-mail: celsojuniorladislau@gmail.com
 LinkedIn: linkedin.com/in/celsojuniorladislau | GitHub: github.com/celsojuniorladislau
 Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
 ========================================================================================
@@ -34,7 +34,7 @@ Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
 ---
 
 ### RESUMO DAS QUALIFICAÇÕES
-Graduando em Ciência da Computação / Sistemas de Informação pela **Universidade Vila Velha (UVV)**, cursando o 4º período, com sólida formação em **Java**, **Programação Orientada a Objetos (POO)**, desenvolvimento de **APIs RESTful** com **Spring Boot** e manipulação avançada de banco de dados **SQL** (PostgreSQL/H2).
+Graduando em Ciência da Computação / Sistemas de Informação pela **Universidade Vila Velha (UVV)**, cursando o 3º período, com sólida formação em **Java**, **Programação Orientada a Objetos (POO)**, desenvolvimento de **APIs RESTful** com **Spring Boot** e manipulação avançada de banco de dados **SQL** (PostgreSQL/H2).
 
 Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, microsserviço completo voltado para a distribuição de medicamentos oncológicos e hospitalares, implementando rastreabilidade de cadeia de frio (2°C a 8°C), controle de validade crítica (< 60 dias) via FEFO, endpoint de baixa de estoque simulando a arquitetura do **ERP Sankhya** e emissão de etiquetas térmicas industriais em linguagem **ZPL II**. Conhecimento de controle de versão com **Git/GitHub**, raciocínio lógico estruturado e facilidade para atendimento e suporte técnico a usuários de sistemas corporativos.
 
@@ -43,7 +43,7 @@ Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, micr
 ### FORMAÇÃO ACADÊMICA
 - **Bacharelado em Ciência da Computação / Sistemas de Informação**  
   **Universidade Vila Velha (UVV)** — Campus Boa Vista, Vila Velha - ES  
-  *Período atual:* 4º período | *Previsão de conclusão:* Dezembro/2027  
+  *Período atual:* 3º período | *Previsão de conclusão:* Dezembro/2027  
   *Disciplinas de destaque:* Algoritmos e Estruturas de Dados, Programação Orientada a Objetos (Java), Modelagem de Banco de Dados Relacional, Engenharia de Software, Redes de Computadores e Sistemas Operacionais.
 
 ---
@@ -123,7 +123,7 @@ CELSO LADISLAU JUNIOR
 Estudante de Ciência da Computação / Sistemas de Informação - Universidade Vila Velha (UVV)
 Vila Velha - ES | Disponibilidade presencial para Jabour, Vitória - ES
 Telefone / WhatsApp: (27) 99266-5692
-E-mail: celsojr.ladislau@gmail.com
+E-mail: celsojuniorladislau@gmail.com
 LinkedIn: https://www.linkedin.com/in/celsojuniorladislau
 GitHub: https://github.com/celsojuniorladislau
 Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
@@ -133,12 +133,12 @@ Estágio no Departamento de Desenvolvimento / TI - Oncovit Distribuidora de Medi
 Código da Vaga: 74584-12725706 | Modalidade: Presencial (Vitória - ES)
 
 RESUMO PROFISSIONAL
-Estudante de Ciência da Computação / Sistemas de Informação na Universidade Vila Velha (UVV), cursando o 4º período (ensino superior a partir do 3º período), com sólida formação em linguagem Java, Programação Orientada a Objetos (POO), desenvolvimento de APIs RESTful e scripts de banco de dados SQL. Experiência prática comprovada no desenvolvimento de microsserviço completo em Java 17 e Spring Boot voltado para distribuição de medicamentos oncológicos e hospitalares, contemplando regras de cadeia de frio (2°C a 8°C), controle de validade crítica (< 60 dias) com lógica FEFO, baixa de estoque simulada com o ERP Sankhya e geração de etiquetas térmicas em linguagem ZPL II. Conhecimento em versionamento de código com Git e GitHub, rotinas e tabelas do sistema Sankhya, facilidade de atendimento a chamados de usuários internos e disponibilidade para atuação presencial na matriz em Jabour, Vitória - ES.
+Estudante de Ciência da Computação / Sistemas de Informação na Universidade Vila Velha (UVV), cursando o 3º período, com sólida formação em linguagem Java, Programação Orientada a Objetos (POO), desenvolvimento de APIs RESTful e scripts de banco de dados SQL. Experiência prática comprovada no desenvolvimento de microsserviço completo em Java 17 e Spring Boot voltado para distribuição de medicamentos oncológicos e hospitalares, contemplando regras de cadeia de frio (2°C a 8°C), controle de validade crítica (< 60 dias) com lógica FEFO, baixa de estoque simulada com o ERP Sankhya e geração de etiquetas térmicas em linguagem ZPL II. Conhecimento em versionamento de código com Git e GitHub, rotinas e tabelas do sistema Sankhya, facilidade de atendimento a chamados de usuários internos e disponibilidade para atuação presencial na matriz em Jabour, Vitória - ES.
 
 FORMAÇÃO ACADÊMICA
 Bacharelado em Ciência da Computação / Sistemas de Informação
 Universidade Vila Velha - UVV (Campus Boa Vista, Vila Velha - ES)
-Período atual: 4º período | Previsão de conclusão: 12/2027
+Período atual: 3º período | Previsão de conclusão: 12/2027
 Disciplinas principais: Algoritmos e Estrutura de Dados, Programação Orientada a Objetos em Java, Banco de Dados Relacional, Engenharia de Software, Sistemas Operacionais.
 
 COMPETÊNCIAS TÉCNICAS E PALAVRAS-CHAVE ATS
