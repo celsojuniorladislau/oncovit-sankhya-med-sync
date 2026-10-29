@@ -21,7 +21,7 @@ GUIA DE USO:
 Serra - ES (Disponibilidade total para atuação presencial em Jabour, Vitória - ES)
 Telefone / WhatsApp: (27) 99266-5692 | E-mail: celsojuniorladislau@gmail.com
 LinkedIn: linkedin.com/in/celsojuniorladislau | GitHub: github.com/celsojuniorladislau
-Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
+Portfólio / Swagger Online: https://api-oncovit.celsoladislau.com/swagger-ui/index.html
 ========================================================================================
 ```
 
@@ -77,7 +77,7 @@ Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, micr
 
 #### 1. Oncovit Sankhya Med Sync — Microsserviço de Rastreabilidade e Integração ERP
 *Tecnologias: Java 17, Spring Boot 3.3, Spring Data JPA, PostgreSQL, H2, Swagger/OpenAPI, ZPL II, Linux, VPS tmux.*  
-*Demonstração Online:* `http://46.62.144.28:8080/swagger-ui/index.html` | *Código Fonte:* `github.com/celsojuniorladislau/oncovit-sankhya-med-sync`
+*Demonstração Online:* `https://api-oncovit.celsoladislau.com/swagger-ui/index.html` | *Código Fonte:* `github.com/celsojuniorladislau/oncovit-sankhya-med-sync`
 
 - **Contexto & Solução:** Projetou e implementou um microsserviço de alta performance voltado para os desafios logísticos da distribuição de medicamentos oncológicos e hospitalares, espelhando os processos da matriz da Oncovit em Vitória-ES.
 - **Destaques Técnicos:**
@@ -85,7 +85,7 @@ Desenvolveu como projeto prático autônomo o **Oncovit Sankhya Med Sync**, micr
   - **Auditoria de Validade Crítica (FEFO):** Implementou motor de busca baseado em Java Streams e SQL analítico que rastreia lotes com validade inferior a 60 dias, calculando dias remanescentes e impacto financeiro em risco para priorização imediata na expedição hospitalar.
   - **Conector ERP Sankhya:** Criou endpoint REST seguro (`/api/integracao/sankhya/baixa-estoque`) autenticado via headers corporativos, executando validações atômicas de saldo físico, quarentena e rejeição de lotes vencidos com retorno padronizado (`HTTP 422 - EXPIRED_LOT_REJECTED`, `HTTP 409 - OUT_OF_STOCK`) e log de auditoria persistido.
   - **Expedição & Etiquetas Térmicas ZPL:** Endpoint gerador de código ZPL II (203 DPI, 100x60mm) com tarja invertida de temperatura de frio, código de barras Code 128 e DataMatrix bidimensional para rastreabilidade de caixas térmicas.
-  - **Deploy Contínuo:** Aplicação homologada e executando em terminal persistente (`tmux`) em servidor Linux VPS 2, com documentação Swagger interativa aberta para testes de recrutadores.
+  - **Deploy Contínuo:** Aplicação conteinerizada em Docker e gerenciada via Portainer na nuvem, com domínio próprio e SSL ativo, documentação Swagger interativa aberta para testes de recrutadores.
 
 #### 2. Simulador de Gestão de Quarentena e Laudos Farmacêuticos
 *Tecnologias: Java, Spring Boot, PostgreSQL, JUnit 5.*  
@@ -126,7 +126,7 @@ Telefone / WhatsApp: (27) 99266-5692
 E-mail: celsojuniorladislau@gmail.com
 LinkedIn: https://www.linkedin.com/in/celsojuniorladislau
 GitHub: https://github.com/celsojuniorladislau
-Portfólio / Swagger Online: http://46.62.144.28:8080/swagger-ui/index.html
+Portfólio / Swagger Online: https://api-oncovit.celsoladislau.com/swagger-ui/index.html
 
 OBJETIVO PROFISSIONAL
 Estágio no Departamento de Desenvolvimento / TI - Oncovit Distribuidora de Medicamentos

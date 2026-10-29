@@ -213,7 +213,7 @@ A aplicação é um microsserviço construído em Java 17 com Spring Boot 3 e Po
 4. Geração de etiquetas térmicas industriais em linguagem ZPL II (Zebra).
 
 Para facilitar a avaliação da equipe técnica, a aplicação já está homologada e rodando em servidor na nuvem via Docker / Portainer, com Swagger interativo disponível publicamente:
-- Documentação Swagger UI: http://46.62.144.28:8080/swagger-ui/index.html
+- Documentação Swagger UI: https://api-oncovit.celsoladislau.com/swagger-ui/index.html
 - Repositório no GitHub: https://github.com/celsojuniorladislau/oncovit-sankhya-med-sync
 
 Tenho total disponibilidade para a jornada presencial e seria uma honra participar da Etapa 1 de testes presenciais e entrevista na sede da empresa.

@@ -13,6 +13,14 @@ services:
     environment:
       - TZ=America/Sao_Paulo
       - JAVA_OPTS=-Xms128m -Xmx384m
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=portainer_default"
+      - "traefik.http.routers.oncovit.rule=Host(`api-oncovit.celsoladislau.com`)"
+      - "traefik.http.routers.oncovit.entrypoints=websecure"
+      - "traefik.http.services.oncovit.loadbalancer.server.port=8080"
+      - "traefik.http.routers.oncovit.service=oncovit"
+      - "traefik.http.routers.oncovit.tls.certresolver=leresolver"
     networks:
       - portainer_default
       - default
